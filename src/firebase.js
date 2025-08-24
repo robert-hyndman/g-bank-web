@@ -3,7 +3,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyADSghXKkmYksSPW5WKuxNsc4fT5ZzMemA",
+    apiKey: import.meta.env.VITE_API_KEY,
     authDomain: "ah-gbank.firebaseapp.com",
     projectId: "ah-gbank",
     storageBucket: "ah-gbank.firebasestorage.app",
